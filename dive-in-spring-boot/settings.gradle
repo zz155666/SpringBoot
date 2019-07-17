@@ -13,3 +13,6 @@ pluginManagement {
 	}
 }
 rootProject.name = 'dive-in-spring-boot'
+include 'autoconfig'
+findProject(':autoconfig')?.name = 'spring-boot-autoconfig'
+
