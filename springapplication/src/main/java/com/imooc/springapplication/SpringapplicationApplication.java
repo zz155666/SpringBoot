@@ -9,8 +9,10 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class SpringapplicationApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(AutoConfigClass.class).web(WebApplicationType.SERVLET);
+		//new SpringApplicationBuilder(AutoConfigClass.class).web(WebApplicationType.SERVLET);
 		SpringApplication.run(AutoConfigClass.class, args);
+//		SpringApplication application=new SpringApplication();
+//		application.setSources();
 	}
 	@SpringBootApplication
 	private static class AutoConfigClass{

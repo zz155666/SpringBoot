@@ -1,0 +1,6 @@
+# Application Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.imooc.springapplication.run.HelloWorldRunListener
+
+org.springframework.context.ApplicationRunListener=\
+com.imooc.springapplication.listener.BeforeConfigApplicationApplicationListener
